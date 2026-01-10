@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is aviation?",
+        "options": ["Science of flying aircraft", "Driving cars", "Sailing ships", "Running"],
+        "answer": 0
+    },
+    {
+        "question": "Which is a heavier-than-air aircraft?",
+        "options": ["Hot-air balloon", "Airship", "Airplane", "None"],
+        "answer": 2
+    },
+    {
+        "question": "Which aircraft uses hot air for lift?",
+        "options": ["Airplane", "Glider", "Hot-air balloon", "Drone"],
+        "answer": 2
+    },
+    {
+        "question": "General Aviation is also known as:",
+        "options": ["Commercial Air Transport", "Private Aviation", "Military Aviation", "Cargo Aviation"],
+        "answer": 1
+    },
+    {
+        "question": "Commercial Air Transport carries:",
+        "options": ["Passengers, cargo, mail", "Only passengers", "Only cargo", "Only mail"],
+        "answer": 0
+    }
+]

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f5f9ff;
+    color: #003366;
+}
+
+h1, h2 {
+    color: #002244;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background: #0055aa;
+}
+
+.quiz-box {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+.option {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#resultBox {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
