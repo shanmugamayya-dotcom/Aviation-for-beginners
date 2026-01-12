@@ -1526,24 +1526,46 @@ Aviation connects people, goods, and cultures across the world.Aviation is the s
 	<!-------------------------------User Feedback--------------------------->
 	
 	<!-------------------------------------user feedbak----------------------------------->
-	<h2>User Feedback</h2>
+<!-- Your existing content -->
 
-<form action="user-input.php" method="POST" style="max-width:400px;">
-    
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required
-           style="width:100%; padding:8px; margin-bottom:12px;"><br>
+<section id="feedback">
+    <h2>Contact Form</h2>
 
-    <label for="comment">Your Comment:</label><br>
-    <textarea id="comment" name="comment" rows="4" required
-              style="width:100%; padding:8px; margin-bottom:12px;"></textarea><br>
+    <form id="myForm">
+        <label>Email 1</label>
+        <input type="email" required>
 
-    <button type="submit" 
-            style="padding:10px 20px; background:#004aad; color:white; border:none; cursor:pointer;">
-        Submit Feedback
-    </button>
+        <label>Email 2</label>
+        <input type="email">
 
-</form>
+        <label>Email 3</label>
+        <input type="email">
+
+        <label>Email 4</label>
+        <input type="email">
+
+        <label>Email 5</label>
+        <input type="email">
+
+        <label>Comment</label>
+        <textarea rows="4" required></textarea>
+
+        <button type="submit" style="margin-top:15px;">Submit</button>
+    </form>
+
+    <div id="thankyou" style="display:none; font-size:20px; color:darkgreen; margin-top:20px;">
+        Thank you! Your response has been recorded.
+    </div>
+</section>
+
+<!-------------------------------------------- Your existing content -->
+	<script>
+    document.getElementById("myForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        document.getElementById("myForm").style.display = "none";
+        document.getElementById("thankyou").style.display = "block";
+    });
+</script>
 	<!---------------------------------------------------------------------foot note Start-------------------------------->
     <footer>
         <pclass="center>© 2026 Aviation for Beginners | Created for educational purposes</p>
@@ -1552,6 +1574,7 @@ Aviation connects people, goods, and cultures across the world.Aviation is the s
 </body>
 
 </html>
+
 
 
 
